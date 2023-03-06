@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    scriptPath 'Jenkinsfile.txt'
+    scriptPath 'Jenkinsfile'
 
     stages {
         stage('Hello') {
