@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    scriptPath 'Jenkinsfile'
+    scriptPath 'Jenkinsfile.groovy'
 
     stages {
         stage('Hello') {
