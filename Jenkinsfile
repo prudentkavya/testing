@@ -8,12 +8,7 @@ pipeline {
       }
     }
     
-    stage('Build') {
-      steps {
-        sh 'nohup npm install &'
-        sh 'nohup npm run build &'
-      }
-    }
+    
     
     stage('Deploy') {
       environment {
