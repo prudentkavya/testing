@@ -10,8 +10,8 @@ pipeline {
     
     stage('Build') {
       steps {
-        sh 'python -m pip install -r requirements.txt'
-        sh 'python setup.py build'
+        sh 'npm install'
+        sh 'npm run build'
       }
     }
     
