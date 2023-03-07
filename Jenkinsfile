@@ -10,8 +10,8 @@ pipeline {
     
     stage('Build') {
       steps {
-        sh 'npm install'
-        sh 'npm run build'
+        sh 'nohup npm install &'
+        sh 'nohup npm run build &'
       }
     }
     
